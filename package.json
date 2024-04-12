@@ -12,12 +12,16 @@
     "lint": "eslint src/js/**/*.js",
     "lint-fix": "eslint src/js/**/*.js --cache --fix",
     "start": "sass --watch src/scss:dist/css & live-server",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test2": "npm run test-e2e",
+    "test-e2e": "cypress open"
   },
   "keywords": [],
   "author": "Noroff",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.4",
     "@eslint/js": "^9.0.0",
     "cypress": "^13.7.2",
     "eslint": "^8.57.0",
