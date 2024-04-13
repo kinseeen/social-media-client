@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "build": "sass src/scss:dist/css",
-    "test": "node index.js && npm run test-unit",
+    "test": "node index.js && npm run test-unit && npm run test-e2e-cli",
     "test-unit": "jest",
     "format": "prettier -w src/js/**/*.js index.js",
     "lint": "eslint src/js/**/*.js",
@@ -14,7 +14,9 @@
     "start": "sass --watch src/scss:dist/css & live-server",
     "prepare": "husky install",
     "test2": "npm run test-e2e",
-    "test-e2e": "cypress open"
+    "test-e2e": "cypress open",
+    "test-e2e-report": "cypress run --reporter mochawesome",
+    "test-e2e-cli": "cypress run"
   },
   "keywords": [],
   "author": "Noroff",
