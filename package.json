@@ -37,6 +37,11 @@
     "prettier": "^3.2.5",
     "sass": "^1.54.8"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "dependencies": {
     "bootstrap-dark-5": "^1.1.3"
   },
