@@ -2,3 +2,4 @@
 /dist
 /.eslintcache
 .npmrc
+cypress.env.json
