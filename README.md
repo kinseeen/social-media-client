@@ -1,9 +1,9 @@
-Social-Media-Client
+# Social-Media-Client
 
-The goal of this  assignment was tp improve the quality of a package by establishing helpful workflows that make the development process more efficient.
+### Goal
+The goal of this  assignment was to improve the quality of a package by establishing helpful workflows that make the development process more efficient.
 
-the requirements for this assignment was: 
-
+### Requirements
   1.  Find a partner to work with or select the example repository.
   2.  Fork the project repository to your GitHub account.
   3.  Create a new branch called workflow.
